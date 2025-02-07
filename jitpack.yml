@@ -1,0 +1,4 @@
+
+install:
+  - FILE="-Dfile=SparkChain-SparkChain_2.0.0_rc1.aar"
+  - mvn install:install-file $FILE -DgroupId=com.iflytek.sparkchain.core -DartifactId=SparkChain -Dversion=SparkChain_2.0.0_rc1 -Dpackaging=aar -DpomFile=pom.xml
