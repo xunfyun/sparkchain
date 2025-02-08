@@ -6,6 +6,24 @@
   <artifactId>SparkChain</artifactId>
   <version>SparkChain_2.0.0_rc1</version>
   <packaging>aar</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <encoding>utf8</encoding>
+          <source>1.8</source>
+          <target>1.8</target>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <name>framework</name>
   <description>SparkChain 在线能力SDK</description>
   <dependencies>
