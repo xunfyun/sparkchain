@@ -19,7 +19,7 @@ allprojects {
 添加依赖：
 ```
 dependencies {
-    implementation 'com.github.xunfyun:sparkchain:2.0.0_rc4'
+    implementation 'com.github.xunfyun:sparkchain:2.0.0_rc5'
 }
 ```
 
